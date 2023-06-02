@@ -30,6 +30,8 @@ plt.show()
 
 temp = np.array(training_set['close'])
 
+training_set = training_set.copy()
+
 # First-order diff
 training_set['diff_1'] = training_set['close'].diff(1)
 plt.figure(figsize=(10, 6))
