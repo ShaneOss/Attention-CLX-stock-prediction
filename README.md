@@ -4,13 +4,16 @@
 
 The code has been tested running under Python 3.7.4, with the following packages and their dependencies installed:
 ```
-numpy==1.16.5
-sklearn==0.21.3
-statsmodels==0.10.1
-pandas==0.25.1
-tensorflow==2.1.0
-keras==2.3.1
-xgboost==1.5.0
+numpy
+scikit-learn
+statsmodels
+pandas
+tensorflow
+keras
+xgboost
+
+matplotlib (for plotting)
+nvidia-tensorrt (for cuda (GPU) tensorflow)
 ```
 
 The stock data used in this repository was downloaded from [TuShare](https://tushare.pro/). The stock data on [TuShare](https://tushare.pro/) are with public availability.
